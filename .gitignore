@@ -1,0 +1,5 @@
+.env
+lightrag_storage/
+venv/
+__pycache__/
+*.pyc

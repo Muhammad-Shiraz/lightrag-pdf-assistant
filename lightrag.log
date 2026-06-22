@@ -1,0 +1,108 @@
+2026-06-21 02:28:33,974 - lightrag - INFO - Gemini LLM Options: {}
+2026-06-21 02:28:33,975 - lightrag - INFO - Gemini Embedding Options: {}
+2026-06-21 02:28:36,858 - lightrag - INFO - Embedding config: binding=gemini model=gemini-embedding-001 embedding_dim=3072 max_token_size=2048
+2026-06-21 02:28:36,859 - lightrag - INFO - Send embedding dimension: True forced by Gemini API (dimensions=3072, has_param=True, binding=gemini)
+2026-06-21 02:28:36,859 - lightrag - INFO - Embedding max_token_size: 2048 (from env variable)
+2026-06-21 02:28:36,860 - lightrag - INFO - Reranking is disabled
+2026-06-21 02:28:38,296 - lightrag - INFO - [] Loaded graph from D:\LightRag Full\lightrag_storage\graph_chunk_entity_relation.graphml with 206 nodes, 201 edges
+2026-06-21 02:28:38,400 - lightrag - INFO - Role LLM Configuration (initialized):
+2026-06-21 02:28:38,400 - lightrag - INFO -  - extract: gemini/gemini-2.5-flash, host=DEFAULT_GEMINI_ENDPOINT, max_async=4, timeout=240
+2026-06-21 02:28:38,400 - lightrag - INFO -  - keyword: gemini/gemini-2.5-flash, host=DEFAULT_GEMINI_ENDPOINT, max_async=4, timeout=240
+2026-06-21 02:28:38,401 - lightrag - INFO -  - query: gemini/gemini-2.5-flash, host=DEFAULT_GEMINI_ENDPOINT, max_async=4, timeout=240
+2026-06-21 02:28:38,401 - lightrag - INFO -  - vlm: gemini/gemini-2.5-flash, host=DEFAULT_GEMINI_ENDPOINT, max_async=4, timeout=240
+2026-06-21 02:28:38,401 - lightrag - INFO - Role LLM Option:
+2026-06-21 02:28:38,402 - lightrag - INFO -  - extract: Gemini {}
+2026-06-21 02:28:38,402 - lightrag - INFO -  - keyword: Gemini {}
+2026-06-21 02:28:38,402 - lightrag - INFO -  - query: Gemini {}
+2026-06-21 02:28:38,402 - lightrag - INFO -  - vlm: Gemini {}
+2026-06-21 02:29:00,115 - lightrag - INFO - Gemini LLM Options: {}
+2026-06-21 02:29:00,116 - lightrag - INFO - Gemini Embedding Options: {}
+2026-06-21 02:29:00,458 - lightrag - INFO - Embedding config: binding=gemini model=gemini-embedding-001 embedding_dim=3072 max_token_size=2048
+2026-06-21 02:29:00,459 - lightrag - INFO - Send embedding dimension: True forced by Gemini API (dimensions=3072, has_param=True, binding=gemini)
+2026-06-21 02:29:00,459 - lightrag - INFO - Embedding max_token_size: 2048 (from env variable)
+2026-06-21 02:29:00,459 - lightrag - INFO - Reranking is disabled
+2026-06-21 02:29:00,793 - lightrag - INFO - [] Loaded graph from D:\LightRag Full\lightrag_storage\graph_chunk_entity_relation.graphml with 206 nodes, 201 edges
+2026-06-21 02:29:00,846 - lightrag - INFO - Role LLM Configuration (initialized):
+2026-06-21 02:29:00,846 - lightrag - INFO -  - extract: gemini/gemini-2.5-flash, host=DEFAULT_GEMINI_ENDPOINT, max_async=4, timeout=240
+2026-06-21 02:29:00,847 - lightrag - INFO -  - keyword: gemini/gemini-2.5-flash, host=DEFAULT_GEMINI_ENDPOINT, max_async=4, timeout=240
+2026-06-21 02:29:00,847 - lightrag - INFO -  - query: gemini/gemini-2.5-flash, host=DEFAULT_GEMINI_ENDPOINT, max_async=4, timeout=240
+2026-06-21 02:29:00,847 - lightrag - INFO -  - vlm: gemini/gemini-2.5-flash, host=DEFAULT_GEMINI_ENDPOINT, max_async=4, timeout=240
+2026-06-21 02:29:00,847 - lightrag - INFO - Role LLM Option:
+2026-06-21 02:29:00,847 - lightrag - INFO -  - extract: Gemini {}
+2026-06-21 02:29:00,848 - lightrag - INFO -  - keyword: Gemini {}
+2026-06-21 02:29:00,848 - lightrag - INFO -  - query: Gemini {}
+2026-06-21 02:29:00,848 - lightrag - INFO -  - vlm: Gemini {}
+2026-06-21 02:29:00,981 - lightrag - INFO - WebUI assets mounted at /webui
+2026-06-21 02:29:01,004 - uvicorn.error - INFO - Started server process [18124]
+2026-06-21 02:29:01,004 - uvicorn.error - INFO - Waiting for application startup.
+2026-06-21 02:29:01,005 - lightrag - INFO - [] Process 18124 KV load full_docs with 1 records
+2026-06-21 02:29:01,006 - lightrag - INFO - [] Process 18124 KV load text_chunks with 6 records
+2026-06-21 02:29:01,006 - lightrag - INFO - [] Process 18124 KV load full_entities with 1 records
+2026-06-21 02:29:01,008 - lightrag - INFO - [] Process 18124 KV load full_relations with 1 records
+2026-06-21 02:29:01,010 - lightrag - INFO - [] Process 18124 KV load entity_chunks with 206 records
+2026-06-21 02:29:01,011 - lightrag - INFO - [] Process 18124 KV load relation_chunks with 201 records
+2026-06-21 02:29:01,013 - lightrag - INFO - [] Process 18124 KV load llm_response_cache with 24 records
+2026-06-21 02:29:01,014 - lightrag - INFO - [] Process 18124 doc status load doc_status with 1 records
+2026-06-21 02:29:01,015 - uvicorn.error - INFO - Application startup complete.
+2026-06-21 02:29:01,015 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:9621 (Press CTRL+C to quit)
+2026-06-21 02:29:11,970 - uvicorn.error - INFO - Shutting down
+2026-06-21 02:29:12,085 - uvicorn.error - INFO - Waiting for application shutdown.
+2026-06-21 02:29:12,087 - lightrag - INFO - Successfully finalized 12 storages
+2026-06-21 02:29:12,088 - uvicorn.error - INFO - Application shutdown complete.
+2026-06-21 02:29:12,088 - uvicorn.error - INFO - Finished server process [18124]
+2026-06-21 02:30:11,456 - lightrag - INFO - Gemini LLM Options: {}
+2026-06-21 02:30:11,456 - lightrag - INFO - Gemini Embedding Options: {}
+2026-06-21 02:30:11,791 - lightrag - INFO - Embedding config: binding=gemini model=gemini-embedding-001 embedding_dim=3072 max_token_size=2048
+2026-06-21 02:30:11,791 - lightrag - INFO - Send embedding dimension: True forced by Gemini API (dimensions=3072, has_param=True, binding=gemini)
+2026-06-21 02:30:11,791 - lightrag - INFO - Embedding max_token_size: 2048 (from env variable)
+2026-06-21 02:30:11,792 - lightrag - INFO - Reranking is disabled
+2026-06-21 02:30:12,146 - lightrag - INFO - [] Loaded graph from D:\LightRag Full\lightrag_storage\graph_chunk_entity_relation.graphml with 206 nodes, 201 edges
+2026-06-21 02:30:12,191 - lightrag - INFO - Role LLM Configuration (initialized):
+2026-06-21 02:30:12,191 - lightrag - INFO -  - extract: gemini/gemini-2.5-flash, host=DEFAULT_GEMINI_ENDPOINT, max_async=4, timeout=240
+2026-06-21 02:30:12,192 - lightrag - INFO -  - keyword: gemini/gemini-2.5-flash, host=DEFAULT_GEMINI_ENDPOINT, max_async=4, timeout=240
+2026-06-21 02:30:12,192 - lightrag - INFO -  - query: gemini/gemini-2.5-flash, host=DEFAULT_GEMINI_ENDPOINT, max_async=4, timeout=240
+2026-06-21 02:30:12,192 - lightrag - INFO -  - vlm: gemini/gemini-2.5-flash, host=DEFAULT_GEMINI_ENDPOINT, max_async=4, timeout=240
+2026-06-21 02:30:12,193 - lightrag - INFO - Role LLM Option:
+2026-06-21 02:30:12,193 - lightrag - INFO -  - extract: Gemini {}
+2026-06-21 02:30:12,193 - lightrag - INFO -  - keyword: Gemini {}
+2026-06-21 02:30:12,193 - lightrag - INFO -  - query: Gemini {}
+2026-06-21 02:30:12,193 - lightrag - INFO -  - vlm: Gemini {}
+2026-06-21 02:30:12,326 - lightrag - INFO - WebUI assets mounted at /webui
+2026-06-21 02:30:12,344 - uvicorn.error - INFO - Started server process [38120]
+2026-06-21 02:30:12,344 - uvicorn.error - INFO - Waiting for application startup.
+2026-06-21 02:30:12,345 - lightrag - INFO - [] Process 38120 KV load full_docs with 1 records
+2026-06-21 02:30:12,346 - lightrag - INFO - [] Process 38120 KV load text_chunks with 6 records
+2026-06-21 02:30:12,346 - lightrag - INFO - [] Process 38120 KV load full_entities with 1 records
+2026-06-21 02:30:12,347 - lightrag - INFO - [] Process 38120 KV load full_relations with 1 records
+2026-06-21 02:30:12,347 - lightrag - INFO - [] Process 38120 KV load entity_chunks with 206 records
+2026-06-21 02:30:12,348 - lightrag - INFO - [] Process 38120 KV load relation_chunks with 201 records
+2026-06-21 02:30:12,350 - lightrag - INFO - [] Process 38120 KV load llm_response_cache with 24 records
+2026-06-21 02:30:12,350 - lightrag - INFO - [] Process 38120 doc status load doc_status with 1 records
+2026-06-21 02:30:12,351 - uvicorn.error - INFO - Application startup complete.
+2026-06-21 02:30:12,352 - uvicorn.error - INFO - Uvicorn running on http://0.0.0.0:9621 (Press CTRL+C to quit)
+2026-06-21 02:30:27,951 - uvicorn.access - INFO - 127.0.0.1:64057 - "GET / HTTP/1.1" 307
+2026-06-21 02:30:28,175 - uvicorn.access - INFO - 127.0.0.1:64057 - "GET /webui/assets/index-DY7ugOcG.js HTTP/1.1" 200
+2026-06-21 02:30:28,176 - uvicorn.access - INFO - 127.0.0.1:64793 - "GET /webui/assets/chunk-QTnfLwEv.js HTTP/1.1" 200
+2026-06-21 02:30:28,178 - uvicorn.access - INFO - 127.0.0.1:58157 - "GET /webui/assets/src-DWlNNfc5.js HTTP/1.1" 200
+2026-06-21 02:30:28,186 - uvicorn.access - INFO - 127.0.0.1:64793 - "GET /webui/assets/index-BbeTmlYc.css HTTP/1.1" 200
+2026-06-21 02:30:28,187 - uvicorn.access - INFO - 127.0.0.1:58157 - "GET /webui/assets/chunk-CSCIHK7Q-BlqVaTkC.js HTTP/1.1" 200
+2026-06-21 02:30:28,199 - uvicorn.access - INFO - 127.0.0.1:64793 - "GET /webui/assets/dist-BExdoQxQ.js HTTP/1.1" 200
+2026-06-21 02:30:28,209 - uvicorn.access - INFO - 127.0.0.1:58157 - "GET /webui/assets/chunk-5ZQYHXKU-2eBUAI0G.js HTTP/1.1" 200
+2026-06-21 02:30:28,215 - uvicorn.access - INFO - 127.0.0.1:64793 - "GET /webui/assets/chunk-O5CBEL6O-ioerY3BN.js HTTP/1.1" 200
+2026-06-21 02:30:28,223 - uvicorn.access - INFO - 127.0.0.1:58157 - "GET /webui/assets/path-BWPyau1x.js HTTP/1.1" 200
+2026-06-21 02:30:28,230 - uvicorn.access - INFO - 127.0.0.1:64793 - "GET /webui/assets/array-BifhSqXX.js HTTP/1.1" 200
+2026-06-21 02:30:28,238 - uvicorn.access - INFO - 127.0.0.1:58157 - "GET /webui/assets/line-ZB2feH2l.js HTTP/1.1" 200
+2026-06-21 02:30:28,241 - uvicorn.access - INFO - 127.0.0.1:64793 - "GET /webui/assets/chunk-L5ZTLDWV-Bxf8-8w_.js HTTP/1.1" 200
+2026-06-21 02:30:28,247 - uvicorn.access - INFO - 127.0.0.1:58157 - "GET /webui/assets/chunk-NZK2D7GU-ODr3m4Vz.js HTTP/1.1" 200
+2026-06-21 02:30:28,248 - uvicorn.access - INFO - 127.0.0.1:64793 - "GET /webui/assets/rough.esm-CSKSodPl.js HTTP/1.1" 200
+2026-06-21 02:30:28,253 - uvicorn.access - INFO - 127.0.0.1:64057 - "GET /webui/assets/chunk-3OPIFGDE-BaqlDrFB.js HTTP/1.1" 200
+2026-06-21 02:30:28,259 - uvicorn.access - INFO - 127.0.0.1:58157 - "GET /webui/assets/chunk-BSJP7CBP-D8Ua6mpo.js HTTP/1.1" 200
+2026-06-21 02:30:28,504 - uvicorn.access - INFO - 127.0.0.1:58157 - "GET /auth-status HTTP/1.1" 200
+2026-06-21 02:30:28,510 - uvicorn.access - INFO - 127.0.0.1:58157 - "GET /webui/favicon.png HTTP/1.1" 200
+2026-06-21 02:30:29,043 - uvicorn.access - INFO - 127.0.0.1:58157 - "GET /docs?theme=dark HTTP/1.1" 200
+2026-06-21 02:30:29,045 - uvicorn.access - INFO - 127.0.0.1:64793 - "GET /graph/label/popular?limit=300 HTTP/1.1" 200
+2026-06-21 02:30:29,054 - lightrag - INFO - [] Subgraph query successful | Node count: 206 | Edge count: 201
+2026-06-21 02:30:29,074 - uvicorn.access - INFO - 127.0.0.1:63022 - "GET /graphs?label=*&max_depth=3&max_nodes=1000 HTTP/1.1" 200
+2026-06-21 02:30:29,081 - uvicorn.access - INFO - 127.0.0.1:58157 - "GET /static/swagger-ui/swagger-ui-bundle.js HTTP/1.1" 200
+2026-06-21 02:30:29,082 - uvicorn.access - INFO - 127.0.0.1:64793 - "GET /static/swagger-ui/swagger-ui.css HTTP/1.1" 200
+2026-06-21 02:30:29,445 - uvicorn.access - INFO - 127.0.0.1:58157 - "GET /openapi.json HTTP/1.1" 200
